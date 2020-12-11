@@ -1,5 +1,5 @@
 # birthday-calculator
-#### This is a simple project to practice creating a Readme
+#### This is a  project to  create a brithday calculator
 #### By Stephen Ndele
 ## Description
 The programs allows users to enter the year, month and date of their birth and returns to them the day of the week they were born.
@@ -7,11 +7,11 @@ The programs allows users to enter the year, month and date of their birth and r
 ## Setup/Installation Requirements
 * Clone the repository to your local machine
     ```
-    $ git clone http/....
+    $ git clone [https://github.com/stephenndele/birthday-calculator.git]
     ```
 * Move into the cloned directory
     ```
-    $ cd ReadmePractice 
+    $ cd birthday-calculator
     ```
 * Open the project on VS Code and liveserver
 ## Known Bugs
