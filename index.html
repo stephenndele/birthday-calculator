@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Birthday Calculator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/styles.css" type="text/css" rel="stylesheet"> 
+
 
 </head>
 <body>
@@ -19,9 +21,6 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
                 
               </ul>
             </div>
@@ -29,7 +28,7 @@
     </div>
     <div class="container-fluid">
         <div class="jumbotron">
-            <h1 class="display-4">Hello, Welcome to birthday calculator</h1>
+          <h1 class="display-4">Hello, Welcome to birthday calculator</h1>
             <p class="lead"> the programs allows users to enter the year, month and date of their birth and returns to them the day of the week they were born.
                 </p>
             <hr class="my-4">
@@ -55,8 +54,50 @@
       </div>
     </div>
     
+   
+    <h3><i>On what day of the week were you born?</i></h3>
+    <p>Kindly fill the following form and press <em> Submit</em> to see your results </p>
+  <div class="formfill flex-center">
+    <div class="card" style="width: 20rem; height: 27rem; align-items: flex-center;">
+      <form class="">
+        <div class="form-group">
+          <div class="form-check form-check-input">
+            <div class="form-check">
+              <label for=""> Day</label>
+                <input class="form-control" type="number" id="day" value="DD" max="31" min="01" required>
+            </div>
+            <div class="form-check">
+              <label for="">Month</label>
+                <input class="form-control" type="number" id="month" value="MM" max="12" min="01" required>
+            </div>
+            <div class="form-check">
+              <label for="">Century</label>
+                <input class="form-control" type="number" id="century" value="CC"
+                  placeholder="Eg. 19" min="19" max="20" required>
+            </div>
+            <div class="form-check">
+              <label for="">Year</label>
+                <input class="form-control" type="number" id="year" value="YY" placeholder="Eg. 99"
+                  size="2" min="00"  required>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Gender</label>
+                <select class="form-control" id="gender" required style="width: 150px;">
+                  <option value=""></option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select> <br>
+                <button onclick="akan()" type="submit" class="btn btn-success ">Submit</button>
+                <button type="reset" class="btn btn-secondary" style=" float:right;">Clear</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 
 
+   
     <div class="card text-center">
       <div class="card-header">
       </div>
@@ -69,8 +110,8 @@
         
       </div>
     </div>
- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="/js/script.js"></script>
+    
 </body>
 </html>
