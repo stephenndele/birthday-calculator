@@ -8,7 +8,7 @@ The programs allows users to enter the year, month and date of their birth and r
 ## Setup/Installation Requirements
 * Clone the repository to your local machine
     ```
-    $ git clone [https://github.com/stephenndele/birthday-calculator.git]
+    $ git clone https://github.com/stephenndele/birthday-calculator.git
     ```
 * Move into the cloned directory
     ```
