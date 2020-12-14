@@ -15,7 +15,7 @@ The programs allows users to enter the year, month and date of their birth and r
     ```
 * Open the project on VS Code and liveserver
 ## Known Bugs
-* N/A
+* Some values are not responsive
 ## Technologies Used
 * HTML
 * CSS
