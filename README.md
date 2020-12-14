@@ -2,7 +2,8 @@
 #### This is a  project to  create a brithday calculator
 #### By Stephen Ndele
 ## Description
-The programs allows users to enter the year, month and date of their birth and returns to them the day of the week they were born.
+The programs allows users to enter the year, month and date of their birth and returns to them the day of the week they were born and also tells the users their Akan name which is based on Akan naming system.
+
 
 ## Setup/Installation Requirements
 * Clone the repository to your local machine
